@@ -1,0 +1,89 @@
+/* Contenedor del encabezado (logo + título) , display,align-items,justify-content, padding*/
+#encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+/* Estilo del título principal, color, font-size, font-family-text-align */
+.titulo {
+    color: #9b59b6;
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+/* Estilo general del body, background-color,margin */
+body{
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Imagen del logo, height*/
+.logo{
+  height: 280px;
+}
+
+/* Contenedor principal de las tarjetas, display:grid, grid-tenplate-columns, gap, padding */
+.grid-container {
+    display: grid;
+    grid-template-columns: 32% 34% 32%;
+    gap: 20px;
+    padding: 30px;
+}
+/* Estilo base de todas las tarjetas , padding, dorder-radius, color*/
+.card{
+    padding: 20px;
+    border-radius: 15px;
+    color: #0d47a1;
+}
+/*tarjeta rosa, text-align, background-color, border*/
+.rosa{
+    text-align: right;
+    background-color: #f6a3b2;
+    border: 3px solid #a9446d;
+}
+/*tarjeta verde, text-align, background-color, border*/
+.verde{
+    text-align: center;
+    background-color: #76f482;
+    border: 3px solid #27a833;
+}
+/*tarjeta azul, text-align, background-color, border*/
+.azul{
+    text-align: left;
+    background-color: #7dd8e8;
+    border: 3px solid #6e88b5;
+}
+/*Tamaño unirforme para todas las imágnes*/
+.medicoGeneral, .quiropraxia, .terapiaNeuronal, .fisioterapia, .obstetra, .pediatra{
+    height: 160px;
+}
+/*boton, background-color,color,border,padding,border-radius,cursor*/
+button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Organiza imagen y botón en columna */
+.contenedor-img-boton {
+    display: flex;
+    flex-direction: column; /* pone el botón debajo */
+    align-items: center;    /* centra horizontalmente */
+    gap: 10px;              /* espacio entre imagen y botón */
+}
+
+/*footer, background-color, padding, text-align, margin-top,color*/
+.footer{
+    background-color: #e7d8c9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #6a4ce6;
+}
+
+
+
+
