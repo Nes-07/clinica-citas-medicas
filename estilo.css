@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 40px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Estilo del título principal, color, font-size, font-family-text-align */
